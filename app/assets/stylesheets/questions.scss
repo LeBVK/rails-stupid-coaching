@@ -1,0 +1,23 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  font-size: 30px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  font-weight: lighter;
+}
+.message{
+  border-left: solid 5px rgb(80,80,80);
+  padding: 10px 20px;
+}
+.active{
+  background-color: rgb(255,255,224);
+}
+.people {
+  font-style: italic;
+}
+

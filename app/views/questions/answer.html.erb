@@ -1,0 +1,15 @@
+<h1>Stupid Coaching</h1>
+<ul>
+  <div class="message inactive">
+    <li><%= @question %></li>
+    <li class="people">- You</li>
+  </div>
+</ul>
+<ul>
+  <div class="message active">
+    <li><%= @answer %></li>
+    <li class="people">- Coach</li>
+  </div>
+</ul>
+<p><%= link_to "Ask a new question", ask_path %></p>
+
